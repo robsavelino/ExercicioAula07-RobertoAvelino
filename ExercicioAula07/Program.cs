@@ -1,10 +1,10 @@
 ﻿using ExercicioAula07;
 string exit = "";
 
-List <ContratoPessoaFisica> listaContratosPf = new List<ContratoPessoaFisica>();
+List <ContratoPessoaFisica> listaContratosPf = new();
 
 
-List <ContratoPessoaJuridica> listaContratosPj = new List<ContratoPessoaJuridica>();
+List <ContratoPessoaJuridica> listaContratosPj = new();
 
 while (!exit.Equals("3"))
 {
